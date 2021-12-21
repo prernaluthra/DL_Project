@@ -1,4 +1,4 @@
-# DL_Project
+# Deep Learning Project Fall 2021
 
 ## 1. Deep_Learning_Project_Fall_2021.ipynb
 This file primarily contains the code for running BRATS2021 Dataset with VGG16, ResNet50 or EfficientNetB3
