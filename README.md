@@ -12,8 +12,9 @@ The code can also be found here: https://www.kaggle.com/prernaluthra/dl-project
 2. Weights of the models: VGG16, ResNet50, EfficientNetB3
 
 ### How to run the code?
-1. You can either clone the kaggle noteboook OR you can clone this github repo
-2. In the code cell `[In 132...]` of the notebook, you'll see the line
+1. You can either clone the kaggle notebook OR you can clone this github repo ( specifically file Deep_Learning_Project_Fall_2021.ipynb)
+2. Go to file `Deep_Learning_Project_Fall_2021.ipynb`
+3. In the code cell `[In 132...]` of the notebook, you'll see the line
 ```
 root_dir = '../input/rsna-miccai-brain-tumor-radiogenomic-classification/'
 ```
