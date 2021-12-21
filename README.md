@@ -19,20 +19,24 @@ The code can also be found here: https://www.kaggle.com/prernaluthra/dl-project
 root_dir = '../input/rsna-miccai-brain-tumor-radiogenomic-classification/'
 ```
 Replace this line so that it points to the path to BRATS2021 Dataset (as indicated in Data Sources Section).
-3. Pick a model you would like to run (eg. VGG16). Make sure you add appropriate imports for it. Note that imports for VGG16, ResNet50, EfficientNetB3 are allready present.
-3. In `Build Model` Section ( or `[In 139...]` code cell), you'll see the line
+
+4. Pick a model you would like to run (eg. VGG16). Make sure you add appropriate imports for it. Note that imports for VGG16, ResNet50, EfficientNetB3 are allready present.
+5. In `Build Model` Section ( or `[In 139...]` code cell), you'll see the line
 ```
 model = VGG16(include_top=False,weights=weights_path)
 ```
 Repace this line with the model you would like to run. 
-4. In the same code cell as above (3.), you'll see the line
+
+6. In the same code cell as above (3.), you'll see the line
 ```
 model = Model(model.inputs, outputs, name="VGG16")
 ```
 Repace this line with the model you would like to run. It should be the same as what you picked in 3.
-5. In `Train Model` Section ( or `[In 140...]` code cell), you'll see the line
+
+7. In `Train Model` Section ( or `[In 140...]` code cell), you'll see the line
 ```
 model = build_model("../input/vgg16-weights/vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5")
 ```
 Repace this line with the path to weights of the appropriate model you chose in 3. and 4.
-6. You should be all set!
+
+8. You should be all set!
