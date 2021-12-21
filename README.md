@@ -1,5 +1,6 @@
 # Deep Learning Project Fall 2021
-
+The goal of this project was to predict the MGMT promoter status using BRATS2021 dataset and computing the accuracy for the same. For this, we primarly tried 2 models: VGG16, ResNet50 or EfficientNetB3 to see which one gives us the best accuracy. 
+Following are the steps to run the code:
 ## 1. Deep_Learning_Project_Fall_2021.ipynb
 This file primarily contains the code for running BRATS2021 Dataset with VGG16, ResNet50 or EfficientNetB3
 
